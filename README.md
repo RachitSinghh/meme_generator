@@ -236,3 +236,11 @@ export default function App(props) {
 5. How would you explain what the "dependencies array" is ?
    - Second parameter to the useEffect function
    - A way for React to know whether or not it should re-run the effect function
+
+### Sneak Peak useRef()
+- Refs are similar to state
+  1. You can mutate them directly
+  2. Changing them doesn't cause a re-render
+
+- They are commonly used for accessing DOM nodes without needing to assign ids to element
+- ref() is a dedicated property in react, it's set aside for the use of setting these refs on DOM nodes
