@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1765444635753" clover="3.2.0">
+  <project timestamp="1765444635753" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="1" methods="10" coveredmethods="10" elements="27" coveredelements="26" complexity="0" loc="15" ncloc="15" packages="2" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.jsx" path="/home/rachit/Scrimba/React/meme-geneator/src/App.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="9"/>
+      <file name="Header.jsx" path="/home/rachit/Scrimba/React/meme-geneator/src/components/Header.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+      </file>
+      <file name="Main.jsx" path="/home/rachit/Scrimba/React/meme-geneator/src/components/Main.jsx">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="8"/>
+        <line num="5" count="100" type="stmt"/>
+        <line num="11" count="100" type="stmt"/>
+        <line num="13" count="100" type="stmt"/>
+        <line num="14" count="100" type="stmt"/>
+        <line num="15" count="100" type="stmt"/>
+        <line num="16" count="100" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="36" count="44" type="stmt"/>
+        <line num="37" count="44" type="stmt"/>
+        <line num="42" count="100" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
