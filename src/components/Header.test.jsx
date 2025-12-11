@@ -1,0 +1,17 @@
+import { describe, expect, test } from "vitest";
+import { render, screen } from "@testing-library/react";
+
+import Header from "./Header";
+describe("Header", () => {
+  test("displays the app name", () => {
+    render(<Header />);
+
+    expect(screen.getByText("Meme Generator")).toBeInTheDocument();
+  });
+
+  test("displays troll face", () => {
+    render(<Header />);
+
+    expect(screen.getByRole("img").src).toContain("troll-face.png");
+  });
+});
